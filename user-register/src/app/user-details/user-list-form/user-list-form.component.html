@@ -1,0 +1,22 @@
+<div class="col-md-6">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let ud of service.list">
+                <td>{{ud.firstName}}</td>
+                <td>{{ud.lastName}}</td>
+                <td>{{ud.phone}}</td>
+                <td>{{ud.city}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
